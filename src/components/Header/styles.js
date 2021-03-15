@@ -12,13 +12,13 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const Container = styled.div`
-  position: relative;
-  width: 100%;
-  max-width: 1280px;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-right: auto;
-  margin-left: auto;
+position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+  
 `;
 
 export const NavLink = styled.div`
@@ -97,3 +97,12 @@ export const Outline = styled(MenuOutlined)`
 export const Span = styled.span`
   cursor: pointer;
 `;
+
+// navabar orig
+// position: relative;
+//   width: 100%;
+//   max-width: 1280px;
+//   padding-right: 25px;
+//   padding-left: 25px;
+//   margin-right: auto;
+//   margin-left: auto;

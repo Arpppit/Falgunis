@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ima  from "./1.jpg";
 
 export const MiddleBlock = styled.section`
   position: relative;
@@ -6,6 +7,7 @@ export const MiddleBlock = styled.section`
   text-align: center;
   display: flex;
   justify-content: center;
+  background: src(${ima}) !important;
 
   @media screen and (max-width: 768px) {
     padding: 5.5rem 0 3rem;
